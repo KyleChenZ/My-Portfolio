@@ -6,7 +6,7 @@
   <link href="/My-Portfolio/atom.xml" rel="self"/>
   
   <link href="https://kylechenz.github.io/My-Portfolio/"/>
-  <updated>2018-07-08T00:52:11.134Z</updated>
+  <updated>2018-07-08T00:56:17.999Z</updated>
   <id>https://kylechenz.github.io/My-Portfolio/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/07/ROS-Bot/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/07/ROS-Bot/</id>
     <published>2018-07-08T00:41:43.000Z</published>
-    <updated>2018-07-08T00:52:11.134Z</updated>
+    <updated>2018-07-08T00:56:17.999Z</updated>
     
-    <content type="html"><![CDATA[<p>My repository for this project: <a href="https://github.com/KyleChenZ/ROSproject" target="_blank" rel="noopener">https://github.com/KyleChenZ/ROSproject</a><br><a id="more"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>Github: <a href="https://github.com/KyleChenZ/ROSproject" target="_blank" rel="noopener">https://github.com/KyleChenZ/ROSproject</a></p><a id="more"></a>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;My repository for this project: &lt;a href=&quot;https://github.com/KyleChenZ/ROSproject&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/ROSproject&lt;/a&gt;&lt;br&gt;
+      &lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/ROSproject&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/ROSproject&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -57,14 +57,13 @@
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/02/MyTube/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/02/MyTube/</id>
     <published>2018-07-02T16:35:04.000Z</published>
-    <updated>2018-07-07T23:24:09.586Z</updated>
+    <updated>2018-07-08T01:02:48.892Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/21185752/41793963-b7ef1990-7612-11e8-8d38-dd8ebe231bb3.PNG" alt="Login With Google API"><br><img src="https://user-images.githubusercontent.com/21185752/41793964-b812a612-7612-11e8-9c1f-d86ae95059d1.PNG" alt="Search with Youtube data API"></p><p>My repository for this project: <a href="https://github.com/KyleChenZ/MyTube" target="_blank" rel="noopener">https://github.com/KyleChenZ/MyTube</a></p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>Github: <a href="https://github.com/KyleChenZ/MyTube" target="_blank" rel="noopener">https://github.com/KyleChenZ/MyTube</a></p><a id="more"></a><p><img src="https://user-images.githubusercontent.com/21185752/41793963-b7ef1990-7612-11e8-8d38-dd8ebe231bb3.PNG" alt="Login With Google API"><br><img src="https://user-images.githubusercontent.com/21185752/41793964-b812a612-7612-11e8-9c1f-d86ae95059d1.PNG" alt="Search with Youtube data API"></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/21185752/41793963-b7ef1990-7612-11e8-8d38-dd8ebe231bb3.PNG&quot; alt=&quot;Login With Google API&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/21185752/41793964-b812a612-7612-11e8-9c1f-d86ae95059d1.PNG&quot; alt=&quot;Search with Youtube data API&quot;&gt;&lt;/p&gt;
-&lt;p&gt;My repository for this project: &lt;a href=&quot;https://github.com/KyleChenZ/MyTube&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/MyTube&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/MyTube&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/MyTube&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
