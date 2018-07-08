@@ -6,7 +6,7 @@
   <link href="/My-Portfolio/atom.xml" rel="self"/>
   
   <link href="https://kylechenz.github.io/My-Portfolio/"/>
-  <updated>2018-07-02T09:36:31.130Z</updated>
+  <updated>2018-07-08T00:52:11.134Z</updated>
   <id>https://kylechenz.github.io/My-Portfolio/</id>
   
   <author>
@@ -17,21 +17,80 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2D SLAM using Robot Operating System</title>
+    <link href="https://kylechenz.github.io/My-Portfolio/2018/07/07/ROS-Bot/"/>
+    <id>https://kylechenz.github.io/My-Portfolio/2018/07/07/ROS-Bot/</id>
+    <published>2018-07-08T00:41:43.000Z</published>
+    <updated>2018-07-08T00:52:11.134Z</updated>
+    
+    <content type="html"><![CDATA[<p>My repository for this project: <a href="https://github.com/KyleChenZ/ROSproject" target="_blank" rel="noopener">https://github.com/KyleChenZ/ROSproject</a><br><a id="more"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;My repository for this project: &lt;a href=&quot;https://github.com/KyleChenZ/ROSproject&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/ROSproject&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/projects/"/>
+    
+    
+      <category term="arduino" scheme="https://kylechenz.github.io/My-Portfolio/tags/arduino/"/>
+    
+      <category term="Robot operating system" scheme="https://kylechenz.github.io/My-Portfolio/tags/Robot-operating-system/"/>
+    
+      <category term="Linux" scheme="https://kylechenz.github.io/My-Portfolio/tags/Linux/"/>
+    
+      <category term="C++" scheme="https://kylechenz.github.io/My-Portfolio/tags/C/"/>
+    
+      <category term="Python" scheme="https://kylechenz.github.io/My-Portfolio/tags/Python/"/>
+    
+      <category term="Stereo Camera" scheme="https://kylechenz.github.io/My-Portfolio/tags/Stereo-Camera/"/>
+    
+      <category term="SLAM" scheme="https://kylechenz.github.io/My-Portfolio/tags/SLAM/"/>
+    
+      <category term="ROS" scheme="https://kylechenz.github.io/My-Portfolio/tags/ROS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MyTube - an Android application that uses Google Authentication API and Youtube Data API</title>
+    <link href="https://kylechenz.github.io/My-Portfolio/2018/07/02/MyTube/"/>
+    <id>https://kylechenz.github.io/My-Portfolio/2018/07/02/MyTube/</id>
+    <published>2018-07-02T16:35:04.000Z</published>
+    <updated>2018-07-07T23:24:09.586Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/21185752/41793963-b7ef1990-7612-11e8-8d38-dd8ebe231bb3.PNG" alt="Login With Google API"><br><img src="https://user-images.githubusercontent.com/21185752/41793964-b812a612-7612-11e8-9c1f-d86ae95059d1.PNG" alt="Search with Youtube data API"></p><p>My repository for this project: <a href="https://github.com/KyleChenZ/MyTube" target="_blank" rel="noopener">https://github.com/KyleChenZ/MyTube</a></p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/21185752/41793963-b7ef1990-7612-11e8-8d38-dd8ebe231bb3.PNG&quot; alt=&quot;Login With Google API&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/21185752/41793964-b812a612-7612-11e8-9c1f-d86ae95059d1.PNG&quot; alt=&quot;Search with Youtube data API&quot;&gt;&lt;/p&gt;
+&lt;p&gt;My repository for this project: &lt;a href=&quot;https://github.com/KyleChenZ/MyTube&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/MyTube&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/projects/"/>
+    
+      <category term="android" scheme="https://kylechenz.github.io/My-Portfolio/categories/projects/android/"/>
+    
+    
+      <category term="android application" scheme="https://kylechenz.github.io/My-Portfolio/tags/android-application/"/>
+    
+      <category term="java" scheme="https://kylechenz.github.io/My-Portfolio/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello Visitors</title>
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/02/hello-world/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/02/hello-world/</id>
     <published>2018-07-02T09:24:54.216Z</published>
-    <updated>2018-07-02T09:36:31.130Z</updated>
+    <updated>2018-07-02T10:33:17.683Z</updated>
     
-    <content type="html"><![CDATA[<p>This portfolio will be updated soon.</p>]]></content>
+    <content type="html"><![CDATA[<!-- excerpt --></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;This portfolio will be updated soon.&lt;/p&gt;
-
-      
+      &lt;p&gt;This portfolio will be updated soon.&lt;br&gt;
     
     </summary>
     
