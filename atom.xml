@@ -6,7 +6,7 @@
   <link href="/My-Portfolio/atom.xml" rel="self"/>
   
   <link href="https://kylechenz.github.io/My-Portfolio/"/>
-  <updated>2018-07-12T04:31:05.768Z</updated>
+  <updated>2018-07-12T05:11:23.268Z</updated>
   <id>https://kylechenz.github.io/My-Portfolio/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mortgage-Calculator</title>
+    <title>HTML Game Test</title>
+    <link href="https://kylechenz.github.io/My-Portfolio/2018/07/11/HTML-Game-Test/"/>
+    <id>https://kylechenz.github.io/My-Portfolio/2018/07/11/HTML-Game-Test/</id>
+    <published>2018-07-12T04:41:47.000Z</published>
+    <updated>2018-07-12T05:11:23.268Z</updated>
+    
+    <content type="html"><![CDATA[<iframe scrolling="no" width="510" height="545" src="//jsfiddle.net/e93vs0tn/embedded/result/dark" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;iframe scrolling=&quot;no&quot; width=&quot;510&quot; height=&quot;545&quot; src=&quot;//jsfiddle.net/e93vs0tn/embedded/result/dark&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="https://kylechenz.github.io/My-Portfolio/categories/Game/"/>
+    
+    
+      <category term="Game" scheme="https://kylechenz.github.io/My-Portfolio/tags/Game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mortgage Calculator</title>
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/11/Mortgage-Calculator/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/11/Mortgage-Calculator/</id>
     <published>2018-07-12T04:23:31.000Z</published>
-    <updated>2018-07-12T04:31:05.768Z</updated>
+    <updated>2018-07-12T04:53:00.414Z</updated>
     
     <content type="html"><![CDATA[<p>Description: An Android application that allow users to do calculate their monthly payment to based on house price etc.</p><p>Github: <a href="https://github.com/KyleChenZ/Mortgage-Calculator" target="_blank" rel="noopener">https://github.com/KyleChenZ/Mortgage-Calculator</a></p><a id="more"></a><h2 id="Keypoints"><a href="#Keypoints" class="headerlink" title="Keypoints:"></a>Keypoints:</h2><ul><li>The view of this app can be change based on screen size and landscape/portrait mode (tested on Nexus 5 and Nexus 10)</li><li>Two fragments are displayed in one activity</li><li>This app has error handling for the inputs</li><li>Scroll view for each fragment</li></ul><h2 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use:"></a>How to use:</h2><ul><li>Enter information in the input section</li><li>There are home value and down payment in U.S. dollar</li><li>Interest Rate and Property Tax Rate in percentage (%)</li><li>Typical Property Tax Rate in U.S should be between 0.00% to 2.00% depending on the county.</li><li>Choose a Term (year) from the given choices (15, 20, 25, 30, 40)</li><li>Press Calculate and check the summary on the output section</li><li>Make sure to scroll to see all the contents for small screen devices</li><li>Press Reset button to clean all input and output</li><li>Error messages will be shown if some information are not provided</li></ul><h2 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots:"></a>Screenshots:</h2><h3 id="Result-of-the-input-landscape-mode"><a href="#Result-of-the-input-landscape-mode" class="headerlink" title="Result of the input (landscape mode):"></a>Result of the input (landscape mode):</h3><p><img src="https://user-images.githubusercontent.com/21185752/41812122-d0402cae-76d1-11e8-9b34-5c337f297142.PNG" alt="Result of the input"></p><h3 id="After-pressing-the-reset-button-portrait-mode"><a href="#After-pressing-the-reset-button-portrait-mode" class="headerlink" title="After pressing the reset button (portrait mode):"></a>After pressing the reset button (portrait mode):</h3><p><img src="https://user-images.githubusercontent.com/21185752/41812123-d0576b1c-76d1-11e8-9250-23840c15888f.PNG" alt="After pressing the reset button"></p><h3 id="Error-handling-portrait-mode"><a href="#Error-handling-portrait-mode" class="headerlink" title="Error handling (portrait mode):"></a>Error handling (portrait mode):</h3><p><img src="https://user-images.githubusercontent.com/21185752/41812124-d06e3482-76d1-11e8-8b4b-38a8dbb5d0b0.PNG" alt="Error handling"></p>]]></content>
     
