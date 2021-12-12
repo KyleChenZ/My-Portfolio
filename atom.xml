@@ -3,10 +3,10 @@
   <title>My Portfolio</title>
   
   
-  <link href="/My-Portfolio/atom.xml" rel="self"/>
+  <link href="https://kylechenz.github.io/My-Portfolio/atom.xml" rel="self"/>
   
   <link href="https://kylechenz.github.io/My-Portfolio/"/>
-  <updated>2018-07-12T05:11:23.268Z</updated>
+  <updated>2018-07-08T06:47:08.000Z</updated>
   <id>https://kylechenz.github.io/My-Portfolio/</id>
   
   <author>
@@ -14,30 +14,50 @@
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello Visitors</title>
+    <link href="https://kylechenz.github.io/My-Portfolio/2021/12/12/hello-world/"/>
+    <id>https://kylechenz.github.io/My-Portfolio/2021/12/12/hello-world/</id>
+    <published>2021-12-12T08:01:12.899Z</published>
+    <updated>2018-07-08T06:47:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This portfolio will be updated soon.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This portfolio will be updated soon.&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>HTML Game Test</title>
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/11/HTML-Game-Test/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/11/HTML-Game-Test/</id>
     <published>2018-07-12T04:41:47.000Z</published>
-    <updated>2018-07-12T05:11:23.268Z</updated>
+    <updated>2018-07-12T05:11:23.000Z</updated>
     
     <content type="html"><![CDATA[<iframe scrolling="no" width="510" height="545" src="//jsfiddle.net/e93vs0tn/embedded/result/dark" frameborder="0" allowfullscreen></iframe>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;iframe scrolling=&quot;no&quot; width=&quot;510&quot; height=&quot;545&quot; src=&quot;//jsfiddle.net/e93vs0tn/embedded/result/dark&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    <summary type="html">&lt;iframe scrolling=&quot;no&quot; width=&quot;510&quot; height=&quot;545&quot; src=&quot;//jsfiddle.net/e93vs0tn/embedded/result/dark&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
       
     
-    </summary>
-    
-      <category term="Game" scheme="https://kylechenz.github.io/My-Portfolio/categories/Game/"/>
     
     
-      <category term="Game" scheme="https://kylechenz.github.io/My-Portfolio/tags/Game/"/>
+    <category term="Game" scheme="https://kylechenz.github.io/My-Portfolio/categories/Game/"/>
+    
+    
+    <category term="Game" scheme="https://kylechenz.github.io/My-Portfolio/tags/Game/"/>
     
   </entry>
   
@@ -46,25 +66,24 @@
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/11/Mortgage-Calculator/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/11/Mortgage-Calculator/</id>
     <published>2018-07-12T04:23:31.000Z</published>
-    <updated>2018-07-12T04:53:00.414Z</updated>
+    <updated>2018-07-12T04:53:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>Description: An Android application that allow users to do calculate their monthly payment to based on house price etc.</p><p>Github: <a href="https://github.com/KyleChenZ/Mortgage-Calculator" target="_blank" rel="noopener">https://github.com/KyleChenZ/Mortgage-Calculator</a></p><a id="more"></a><h2 id="Keypoints"><a href="#Keypoints" class="headerlink" title="Keypoints:"></a>Keypoints:</h2><ul><li>The view of this app can be change based on screen size and landscape/portrait mode (tested on Nexus 5 and Nexus 10)</li><li>Two fragments are displayed in one activity</li><li>This app has error handling for the inputs</li><li>Scroll view for each fragment</li></ul><h2 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use:"></a>How to use:</h2><ul><li>Enter information in the input section</li><li>There are home value and down payment in U.S. dollar</li><li>Interest Rate and Property Tax Rate in percentage (%)</li><li>Typical Property Tax Rate in U.S should be between 0.00% to 2.00% depending on the county.</li><li>Choose a Term (year) from the given choices (15, 20, 25, 30, 40)</li><li>Press Calculate and check the summary on the output section</li><li>Make sure to scroll to see all the contents for small screen devices</li><li>Press Reset button to clean all input and output</li><li>Error messages will be shown if some information are not provided</li></ul><h2 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots:"></a>Screenshots:</h2><h3 id="Result-of-the-input-landscape-mode"><a href="#Result-of-the-input-landscape-mode" class="headerlink" title="Result of the input (landscape mode):"></a>Result of the input (landscape mode):</h3><p><img src="https://user-images.githubusercontent.com/21185752/41812122-d0402cae-76d1-11e8-9b34-5c337f297142.PNG" alt="Result of the input"></p><h3 id="After-pressing-the-reset-button-portrait-mode"><a href="#After-pressing-the-reset-button-portrait-mode" class="headerlink" title="After pressing the reset button (portrait mode):"></a>After pressing the reset button (portrait mode):</h3><p><img src="https://user-images.githubusercontent.com/21185752/41812123-d0576b1c-76d1-11e8-9250-23840c15888f.PNG" alt="After pressing the reset button"></p><h3 id="Error-handling-portrait-mode"><a href="#Error-handling-portrait-mode" class="headerlink" title="Error handling (portrait mode):"></a>Error handling (portrait mode):</h3><p><img src="https://user-images.githubusercontent.com/21185752/41812124-d06e3482-76d1-11e8-8b4b-38a8dbb5d0b0.PNG" alt="Error handling"></p>]]></content>
     
-    <summary type="html">
     
-      &lt;p&gt;Description: An Android application that allow users to do calculate their monthly payment to based on house price etc.&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/Mortgage-Calculator&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/Mortgage-Calculator&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
-    
-      <category term="Android" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/Android/"/>
+    <summary type="html">&lt;p&gt;Description: An Android application that allow users to do calculate their monthly payment to based on house price etc.&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/Mortgage-Calculator&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/Mortgage-Calculator&lt;/a&gt;&lt;/p&gt;</summary>
     
     
-      <category term="Android application" scheme="https://kylechenz.github.io/My-Portfolio/tags/Android-application/"/>
     
-      <category term="Java" scheme="https://kylechenz.github.io/My-Portfolio/tags/Java/"/>
+    <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
+    
+    <category term="Android" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/Android/"/>
+    
+    
+    <category term="Android application" scheme="https://kylechenz.github.io/My-Portfolio/tags/Android-application/"/>
+    
+    <category term="Java" scheme="https://kylechenz.github.io/My-Portfolio/tags/Java/"/>
     
   </entry>
   
@@ -73,29 +92,28 @@
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/09/Wireless-MP3/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/09/Wireless-MP3/</id>
     <published>2018-07-09T07:17:29.000Z</published>
-    <updated>2018-07-09T07:54:11.766Z</updated>
+    <updated>2018-07-09T07:54:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>Description: MP3 Design from scratch using LPC1768 micro-controller. Used protocal: SPI and UART.</p><p>Github: <a href="https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx" target="_blank" rel="noopener">https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx</a></p><a id="more"></a><h3 id="Hardware-Description"><a href="#Hardware-Description" class="headerlink" title="Hardware Description:"></a>Hardware Description:</h3><p><img src="https://lh3.googleusercontent.com/HpsgmhlsN4G_w_VrTbUphq0CtmpFccdpYRfvY_YCq_N5HICuXnUdRc3Yotpdp5-KQ7YknMhX-MXKORNEtkQ2uX10glk7AvmUsKhrHTpUSVLjSPfKwMq6th6goi2_P3xOCtEakYyoQLWXTpSkstgdOyBLTeKoA3D-oMBMfBsVieEzqV7ZmP2ccS76k4YQyMlS4psVVOP7QND8fyjp_UC3CQzsgd3lAlIqVJgGYv8NezbXxad5YoCHQUSOMl8oPIE5xJO8eFbCBWvCvOXQCWP6aln0EgTmc6KHncbjjImkHDHnaU7-6yvWtjyoH_dRDodOsjJuQ3k-QqGxJEnuyO9wU1X6hfLX4wwMSJRUHHnkRxuLbBNJbfv8D-_dTedEmdWWaUDIdAV9EFpLSQnKwQoczY4Ei6BOEHl0BBJF82XV2OaicjbPO0H9L3vEeBXOaBr9DUutI3vPvEYBVfD7tzdxYl2Z9-rDZEInbjErD21VPcfz5nTfSTez67njr6nSf2W9u1REpivmC0be13VzoaOw-XIwop1NKN7VOH4q8JNJaMM1FUa5YP5vR6M51SmCkIWU1RE7wKry6F3ddItHiJ2FNVe1BCabgLFPjWWAlt8=w1000-no-tmp.jpg" alt="Hardware Description"></p><ul><li><a href="http://socialledge.com/sjsu/images/4/4a/Sjone_board.jpg" target="_blank" rel="noopener">LPC1768 (SJSU edition)</a><ul><li>IR sensor</li><li>SD card</li></ul></li><li>VS 1053B (MP3 Decoder)</li><li>Remote Control</li><li>serLCD v2.5 (LCD Display)</li></ul><h3 id="MP3-Decoder-Pin-Description"><a href="#MP3-Decoder-Pin-Description" class="headerlink" title="MP3 Decoder Pin Description:"></a>MP3 Decoder Pin Description:</h3><p><img src="https://lh3.googleusercontent.com/2iB1So1ii0m5AYIbyvQ3HM03zVep4PkVFTW8h31MvpPdYxzL1IvC0lbmpsJ1QLlA9skhX9MP-6chEVnKSZRdV8v6pojaTJLpN2k-_239caDpAXFUuzsWH5ogRp_s08u4v_8z4_jsYf6U0r0kpgj15tTkUxRGWJ3_SofiJVuFC6w8J8k7z4Hxt-eZdgq8bMt3V6jS6UtvNAfqU5QKht4D97VwZcYNBWmk4Q5Xx3LjFhLolYvaZUizRfogNeJdNnO3AcwTKnY8xCDcLI71kraXIC0HD8LWQy7wDWpKpFwIrb-OocP48U-T3S1WPAhJZkM-N_sZKh6LEP1paBVmRsZe1U09-9tJarzqVc53wib2-Fy8SRKimXIP7cCgeyOPTc-fC1iKu68KIq3gWA4B0XR7KKvBSgMj8biHrPewQ2-Xq8F0uXL6drPNyTPJA6mPpZMeg37XIbieZt28B_9r1S8DwtImZctEdoSC6dj_jk40aXqMAKtkhPDWL861vhlX4ol5ZjZ2_kXU9qDv0tlIp4W_8ZYpAkOOqkq1gdbb3GBtdKE4WEbRBthEkm5UUoh2_xXIbgALv3Vy3g3ntGnoXJFdLNaEUipF3M_LCtUyhRs=w1000-no-tmp.jpg" alt="MP3 Decoder"><br><img src="https://lh3.googleusercontent.com/3rmA2BQhx2ZfimBjsGlLjh5Zpr5-NfufFGjNioRKstFBSq5WImIWYRd0_7q6shSLynuqNsCZaSRGmDVizkxEuZFw8_77TdwxfMJAWkFZZx5qShX452RZgiHQzy8kZWQkv6fQU0vNQANADSIpa4mFs5mvhSBb52VlB4PokXr5BKDoVwhsMRGYMjeKvN-mBATvYihcEWy12bQ-V7va2kolP6E3PIdeQeM39y3midjXXoQqk_owGO81q2kyNxxgDloN8j0TvEJSDpwtI5lNFdCiNMToGEcUzX8unmi9rP2BQypm3RhBIpk9mTBIU8dYx1nTGnFHG5vhyeQzgmgEjVZfvnRlm2jrZvPxlm5J3APQFd1iZYrqibB6JnAguvmWr68iJkEjcqStd2CsEz4VgzuXe7c7fXCNpv-Tt-ou7tloAZ42WsWEhdsYks7XVW3fj9BDMVzEagecVV6Wb1kZqsjEMA44P1BsS4Zqny_Ctt-jqVtaMJy5dGZHneb0NwY2p50qr0_pro4if0d9ldAY9PECitTnANkt3X762sHKPaOBbhnOHdB2v8GMGqdL3LUfbC0WDdZ-zOCWjyEVbCfLVL5QlnQvKgtGjShHUv0TDnw=w1000-no-tmp.jpg" alt="MP3 Decoder Layout"></p><ul><li>SPI Protocol (MISO, MOSI, CS, SCLK)</li><li>Dreq</li><li>XDCS</li><li>Pins for speaker<ul><li>LOUT</li><li>AGND</li><li>ROUT</li></ul></li></ul><h3 id="Display-Hardware-Description"><a href="#Display-Hardware-Description" class="headerlink" title="Display Hardware Description:"></a>Display Hardware Description:</h3><p><img src="https://lh3.googleusercontent.com/ymMlIt15VnGTn2Ohd5BrxdHNqmWQPCNQ1FHc9YjtDoOdrRG0bH_Gj4Y9gDDLyWJHpNq6cjMvHgF3O4mJsCd7vBNCTvHt0P9jkN-gqJQ4TFjbh2MoXEVaBR-xd0LXhFiF4kRdKYLneg8mRfn0v-CPKGYXmEpv7tjHp0XgxzMP4qDd1Ik5id_aSD6UxaPyhaZNHxAAo_PJYdjEaai3HCOr1UoK3magOOvvIauROhKbr9zZMEPcOHae_izm61au8bY8TfAU5jKvduGsSI97dI3FjuwGgalppUNFu2m3OKSuh3ntn0NQkmd7crIxTvWSFHQTtXMknGnathwG_9cMvjE7DasCPo8dkF5QVEApLrAtytGHuXihAC3o9lCD43XJ9JeLQvkOLgLjZL_Ne4p6Z8nGbxbj_sryn6gEeZrF6FigykB5e-2HXa2LV3dBEz4ncCVBEd2Ap7-cjiVrf13S76joNU6f8rjmRk1JuOgLcLUgyLgfXtfPnHykXwTtaDZ5O2Nk-j886GRqnowGKbrYilUuONoZhsLYC6GsJcmzupooEFi9AvfI5YQrqHVg4tih9xzUevl2y4zVnRZ6NUehVuSx_0jJe-QzI68sI2sGX64=w1000-no-tmp.jpg" alt="LCD"></p><ul><li>16x2 display</li><li>UART Protocol</li><li>3 Pins needed: VDD, GND, RX</li><li>Software functionalities: Displays song name and info</li></ul><h3 id="MP3-Transfer-Algorithm"><a href="#MP3-Transfer-Algorithm" class="headerlink" title="MP3 Transfer Algorithm"></a>MP3 Transfer Algorithm</h3><h4 id="Setup"><a href="#Setup" class="headerlink" title="Setup:"></a>Setup:</h4><ul><li>Scan and store all the mp3 file paths</li><li>Software reset for the decoder</li><li>Configure SCI Mode register to set SPI mode</li><li>Configure SCI Audata register to set audio samplerate</li><li>Configure SCI Clock register to set clock frequency<h3 id="Transfer-Data"><a href="#Transfer-Data" class="headerlink" title="Transfer Data:"></a>Transfer Data:</h3></li><li>Open a file using fopen(path[songIndex], “r”)</li><li>Read the file from SD card and send data to the decoder’s SDI register</li><li>Keep sending data to play the song</li><li>Meanwhile, receive control signal</li></ul><h3 id="LCD-Display-Info"><a href="#LCD-Display-Info" class="headerlink" title="LCD Display Info:"></a>LCD Display Info:</h3><p><img src="https://lh3.googleusercontent.com/6W_RwI9Fadt3jRB_nyilJvBRBmm8EaHOZlsxm69fxhOKJwb1QS3DlSmvNwV5QcxyphokE4uClgjtCzzQG3HSRGf_uJKRRJtFDfZmJj3ePOuJNh_5D2TSYdCcFsTBEZ9KAXnCJk1-uzt7OKp9hZ9bgw8hqYHEANdxy34UVggIi7wC9y__59YEYUzSZf1LT6p28cJSLNTBlTpv7FclwhzOEKQlrroZz0Uk4HtuVsoo1qpQoXGkFpqgPKVRvf4XOUt2oj8b2gqDRCs6n1eNLDkyFKzvDGxzZhdgaO3tbJt6aTAn7ykWm0llEpE15_W3mFDnARSKzdbGFO6R1W6YeNyXtBr7DzBIzK3bW7ZTqT9TaJwKVQ7N9zORz8aFQU6o0Jofqhw89dXG13-Ij_f9MaImhasD86uOdHkTDuKCu_bPPHhNeY-HMylPyIH8F9kG4UUg49NSDn6HDCYqACUAuWmuk-MSIgVQ2KieVrGtdVzf9Ib9Su958qRTHIOJ_EYNat09VHD45A5uEwyIQskVrhSexwFT1yLvUaZEOB1iUGaXzpetROeWZZ06wYEaHTbTXfaYrMqSTiZPShoMnETe7IUV5qlQ1y5FGTUMmZkaJ3s=w1000-no-tmp.jpg" alt="LCD cursor"><br><img src="https://lh3.googleusercontent.com/47tx-8AIc2ZQA_brQZAT9SqpT8oWLdBGKA4UOhj1_01b62wJ3jwMt6f1wIASS5nIUssC_JVr3npuNc32z7r5kKoA_ceQntnFRPoujPhckLogSN2QC0B-oNgllVWzxmzqXdhask9xu-rAJxxmc-0gZmk-F_N3fYMwLM1ex0opS3_Pn2_G_S8anw5sxhqz1KRyCCvFpDdOOfX5NuQpjQGzofz--bCq2I4xAsgxp7-4tCZdjq8C2NW-yHcsHaqzCY1CgeIr-KVGUDLbjuWaoBos43XPXZnou9okIFdl1x7sswj52XrG7fks_mtrrWJHKhtsvFFdDRtD4LPgX787QvSxqwhqSlJ25CpnL1Ng5gdw6QX1PST22s6Kswh9tygObQDXCKm_6U1D6JJE6wGP1a8HGyx-ihCKyevjZi_JmKgXRq7LpT0x1p_jsHMRJ6A5ZVgHbZrndfxIs82nG066ATkfhhOCkvqCXY_UWiE3IpXGgb3D-sfBYoLuKRZh0s5msSk_U4iul78OcJeNcFUQMfJY5uhd58211cOdobwnRJBtsw_-vx-wnbkLgXe-I8_Z4JGIFHpcwf_LCauCPoATeBlHEAMb5S78zOOxNT2NhUA=w1000-no-tmp.jpg" alt="LCD command table"></p><h3 id="Display-Algorithm"><a href="#Display-Algorithm" class="headerlink" title="Display Algorithm:"></a>Display Algorithm:</h3><ul><li>Display Buffer:<ul><li>2 char array that each contains 16 characters, corresponding to each display grid on the screen.s</li></ul></li><li>Update()<ul><li>Updating the display’s</li></ul></li><li>VolumeChange()<ul><li>Update the display buffer to display volume and the current state of volume</li></ul></li><li>ScrollView()<ul><li>If the song name is too long, the ScrollView will display the song name by shifting left.</li></ul></li></ul><h3 id="Instructions-on-Using-the-Mp3-Player"><a href="#Instructions-on-Using-the-Mp3-Player" class="headerlink" title="Instructions on Using the Mp3 Player:"></a>Instructions on Using the Mp3 Player:</h3><p><img src="https://lh3.googleusercontent.com/hrMBkVCnUPJ7qqD7DgZaSAE7z7Cs2-adaLTXgz1e82guEZ8F3qvhKo3Oj6LP5Q6-3Ym0aBF-cAKHwyn6QG8qI1qrvHdBeL4VWpssHPyndordrzMxANv9gYiHBbyUDHzpWcXczO0qGMKlVB46RM9DHnw7YOt7Sjiz4RltRijpaYhGak7Zt_BjdxOE_HTI7moHAaIcuRfgXH_MIu_7LTXU7-EhvhC4z91une0x1ImGtlsO4_j1yFuQc2qBLS-SvNZDGev5LXnyEQb5DxXjTz8LatoHqkiH3OzGgfDxNgxlnQ4_XEKEZXg-y8FLsMPdnzATArDwZfqJt5QeHAfKUqb9AdjEzplh7RjN8i_KdlpI4S_78D-vpA7avicb9sRAma21V-1UMZFFwQxPkFQf38PA83rK43TAJmESOISlSPojB8CW1iXsjR4lP0uDszZk-vZY4aehYYYfyN4K9d6YGy-iVSXFQcdHvZOSuoJSnW6nIo7VzRa3CfrfciDOclTH9ugC1jNVVKF6RFC5Sgz0c04STluqHDKjsf3KcR3Y4dbGZgQUhX8daHFM6h3_AMkEg_-4St7U1YYJp3Bks1nfWnfvVIBIknyj10ibrQtbeUQ=w1000-no-tmp.jpg" alt="Instruc table"><br><img src="https://lh3.googleusercontent.com/rRrB5jeRDd7ZPiRLdOn7U8JqWENbFg2nanUzC2B0O0X8HxHvkC4dlBr3cHrbbMh1dHzCnVNwxjQ_hjcSVIsFQ9CLhqyLc908LbAwAyWgYI39XYEBoWO5z6-MNnWyDD14lDPFx_m-omer0_HhN4h38JTaH4movu8zpCBXt--dMU4lJ2BDvPjbLiXCS5u3XHHN7qJJCRguLzPZGi8BFddwLknk19ysNLqw5ga3ILe7poLrC11bhOdYS3Nga_lQKk40sNAYGiO-u3ggeDBrVWOU1lEG_KopEcR9X519RtxlLl8cVhRbypQfTn-qy7HK8enXHIbNGw9z_qZgcFm13clyEghaZ5X1l_kCCDO8ZuQLOKYufI-y624HcSu-FQru3EOrEpyEGYrq35sPrejHl-VridGcnfoa2gFP4SHhvrohO7bhWJjGXpoPm6nkpLs_CJ4TbAlAj8fDedrWbqyDuvY1PkDGhH67blRfA9pAUM287GgEna6fqGYN6B7yuBvEwy2XfeR9YlEHHeIwzhFvpdRd1cDFAHos_VzIfsgZFZvnUgj7kKWlceuvk-ElrXOsYy0Qft_WyxVFEK50lBcF8aP-YMk0rsLuK468C293o04=w1000-no-tmp.jpg" alt="Remote photo"></p><h3 id="Select-Menu-Mode"><a href="#Select-Menu-Mode" class="headerlink" title="Select/Menu Mode:"></a>Select/Menu Mode:</h3><ul><li>Preview other songs</li><li>Press OK to play the song that you are previewing</li></ul><h3 id="Main-Tasks"><a href="#Main-Tasks" class="headerlink" title="Main Tasks:"></a>Main Tasks:</h3><p><img src="https://lh3.googleusercontent.com/CwNDXJY84H066wY2UHUZUQr-ctQ-VOThTIWdn61KDB3pMJJCZyG5yE02GnUOMebpskMVaXmvjSzwgLlI6qihOqlrv-S56pBLDm2_FBUPVx79gFsyEmm29IdFtbId7EghLLQ-NhM8pX1ZEwaMipAIozs4mbitO2bfLJFGOkDu-v7p4Qbg4lZ__c8XpADYDp2YCGM2nymwWzHo-x1HsuDTAOLJQlRoNJ849zFhSFnv1SE9bKPNJQNiB9lcBKEBWYTGJGDqjySqR5o3uY3Kk2kXjZVuxUZJs1T1p9lukOTTi_rSXIsBQT1j1OiBitA9Trz4xT9neHMciJO3JLCxwNq9dqQX6YLVmccNxvLjP4Dvs_cNdxD4PBad-oJZSC9Iez_m3CrSicmBUH8U9zteuQDPCVmW7STmvQIrdGIQ-0CBDMlso9NtaKQkKvXoR-fhEpEfSh-ONit4yw0HGoWfLU-D8t17_sVLDtktvelosamtYziNiyAwMms6L3TgKiRJ-ZrQKOwTrCDr0YV-vlXQfxhjMtr8cx29c8pUeSE9lB4jhgxnRv_i2pT5NMdFukhmHBZU0aUXQpg0Cp4zl38f-vWZrLYbkXd62CaO-9fEBBE=w1000-no-tmp.jpg" alt="Main Tasks"></p><h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><p><a href="https://www.sparkfun.com/datasheets/Components/SMD/vs1053.pdf" target="_blank" rel="noopener">https://www.sparkfun.com/datasheets/Components/SMD/vs1053.pdf</a><br><a href="http://socialledge.com/sjsu/index.php/Main_Page" target="_blank" rel="noopener">http://socialledge.com/sjsu/index.php/Main_Page</a><br><a href="https://www.sparkfun.com/datasheets/LCD/SerLCD_V2_5.PDF" target="_blank" rel="noopener">https://www.sparkfun.com/datasheets/LCD/SerLCD_V2_5.PDF</a></p>]]></content>
     
-    <summary type="html">
     
-      &lt;p&gt;Description: MP3 Design from scratch using LPC1768 micro-controller. Used protocal: SPI and UART.&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
-    
-      <category term="Real-time OS" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/Real-time-OS/"/>
+    <summary type="html">&lt;p&gt;Description: MP3 Design from scratch using LPC1768 micro-controller. Used protocal: SPI and UART.&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx&lt;/a&gt;&lt;/p&gt;</summary>
     
     
-      <category term="LPC17xx" scheme="https://kylechenz.github.io/My-Portfolio/tags/LPC17xx/"/>
     
-      <category term="FreeRTOS" scheme="https://kylechenz.github.io/My-Portfolio/tags/FreeRTOS/"/>
+    <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
     
-      <category term="MP3" scheme="https://kylechenz.github.io/My-Portfolio/tags/MP3/"/>
+    <category term="Real-time OS" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/Real-time-OS/"/>
     
-      <category term="Embedded Application" scheme="https://kylechenz.github.io/My-Portfolio/tags/Embedded-Application/"/>
+    
+    <category term="LPC17xx" scheme="https://kylechenz.github.io/My-Portfolio/tags/LPC17xx/"/>
+    
+    <category term="FreeRTOS" scheme="https://kylechenz.github.io/My-Portfolio/tags/FreeRTOS/"/>
+    
+    <category term="MP3" scheme="https://kylechenz.github.io/My-Portfolio/tags/MP3/"/>
+    
+    <category term="Embedded Application" scheme="https://kylechenz.github.io/My-Portfolio/tags/Embedded-Application/"/>
     
   </entry>
   
@@ -104,35 +122,34 @@
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/07/ROS-Bot/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/07/ROS-Bot/</id>
     <published>2018-07-08T00:41:43.000Z</published>
-    <updated>2018-07-09T07:53:44.354Z</updated>
+    <updated>2018-07-09T07:53:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>Description: Robot design project that involves SLAM, Nvidia Jetson TX2, ROS, ZED Stereo Camera, etc.</p><p>Github: <a href="https://github.com/KyleChenZ/ROSproject" target="_blank" rel="noopener">https://github.com/KyleChenZ/ROSproject</a></p><a id="more"></a>]]></content>
     
-    <summary type="html">
     
-      &lt;p&gt;Description: Robot design project that involves SLAM, Nvidia Jetson TX2, ROS, ZED Stereo Camera, etc.&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/ROSproject&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/ROSproject&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
+    <summary type="html">&lt;p&gt;Description: Robot design project that involves SLAM, Nvidia Jetson TX2, ROS, ZED Stereo Camera, etc.&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/ROSproject&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/ROSproject&lt;/a&gt;&lt;/p&gt;</summary>
     
     
-      <category term="Arduino" scheme="https://kylechenz.github.io/My-Portfolio/tags/Arduino/"/>
     
-      <category term="Robot operating system" scheme="https://kylechenz.github.io/My-Portfolio/tags/Robot-operating-system/"/>
+    <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
     
-      <category term="ROS" scheme="https://kylechenz.github.io/My-Portfolio/tags/ROS/"/>
     
-      <category term="Linux" scheme="https://kylechenz.github.io/My-Portfolio/tags/Linux/"/>
+    <category term="Arduino" scheme="https://kylechenz.github.io/My-Portfolio/tags/Arduino/"/>
     
-      <category term="C++" scheme="https://kylechenz.github.io/My-Portfolio/tags/C/"/>
+    <category term="Robot operating system" scheme="https://kylechenz.github.io/My-Portfolio/tags/Robot-operating-system/"/>
     
-      <category term="Python" scheme="https://kylechenz.github.io/My-Portfolio/tags/Python/"/>
+    <category term="ROS" scheme="https://kylechenz.github.io/My-Portfolio/tags/ROS/"/>
     
-      <category term="Stereo Camera" scheme="https://kylechenz.github.io/My-Portfolio/tags/Stereo-Camera/"/>
+    <category term="Linux" scheme="https://kylechenz.github.io/My-Portfolio/tags/Linux/"/>
     
-      <category term="SLAM" scheme="https://kylechenz.github.io/My-Portfolio/tags/SLAM/"/>
+    <category term="C++" scheme="https://kylechenz.github.io/My-Portfolio/tags/C/"/>
+    
+    <category term="Python" scheme="https://kylechenz.github.io/My-Portfolio/tags/Python/"/>
+    
+    <category term="Stereo Camera" scheme="https://kylechenz.github.io/My-Portfolio/tags/Stereo-Camera/"/>
+    
+    <category term="SLAM" scheme="https://kylechenz.github.io/My-Portfolio/tags/SLAM/"/>
     
   </entry>
   
@@ -141,47 +158,24 @@
     <link href="https://kylechenz.github.io/My-Portfolio/2018/07/02/MyTube/"/>
     <id>https://kylechenz.github.io/My-Portfolio/2018/07/02/MyTube/</id>
     <published>2018-07-02T16:35:04.000Z</published>
-    <updated>2018-07-09T07:53:40.402Z</updated>
+    <updated>2018-07-09T07:53:40.000Z</updated>
     
     <content type="html"><![CDATA[<p>Description: An Android application that uses Google Authentication API and Youtube Data API</p><p>Github: <a href="https://github.com/KyleChenZ/MyTube" target="_blank" rel="noopener">https://github.com/KyleChenZ/MyTube</a></p><a id="more"></a><p><img src="https://user-images.githubusercontent.com/21185752/41793963-b7ef1990-7612-11e8-8d38-dd8ebe231bb3.PNG" alt="Login With Google API"><br><img src="https://user-images.githubusercontent.com/21185752/41793964-b812a612-7612-11e8-9c1f-d86ae95059d1.PNG" alt="Search with Youtube data API"></p>]]></content>
     
-    <summary type="html">
     
-      &lt;p&gt;Description: An Android application that uses Google Authentication API and Youtube Data API&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/MyTube&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/MyTube&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
-    
-      <category term="Android" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/Android/"/>
+    <summary type="html">&lt;p&gt;Description: An Android application that uses Google Authentication API and Youtube Data API&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/KyleChenZ/MyTube&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/KyleChenZ/MyTube&lt;/a&gt;&lt;/p&gt;</summary>
     
     
-      <category term="Android application" scheme="https://kylechenz.github.io/My-Portfolio/tags/Android-application/"/>
     
-      <category term="Java" scheme="https://kylechenz.github.io/My-Portfolio/tags/Java/"/>
+    <category term="Projects" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello Visitors</title>
-    <link href="https://kylechenz.github.io/My-Portfolio/2018/07/02/hello-world/"/>
-    <id>https://kylechenz.github.io/My-Portfolio/2018/07/02/hello-world/</id>
-    <published>2018-07-02T09:24:54.216Z</published>
-    <updated>2018-07-08T06:47:08.706Z</updated>
+    <category term="Android" scheme="https://kylechenz.github.io/My-Portfolio/categories/Projects/Android/"/>
     
-    <content type="html"><![CDATA[<p>This portfolio will be updated soon.</p>]]></content>
     
-    <summary type="html">
+    <category term="Android application" scheme="https://kylechenz.github.io/My-Portfolio/tags/Android-application/"/>
     
-      
-      
-        &lt;p&gt;This portfolio will be updated soon.&lt;/p&gt;
-
-      
-    
-    </summary>
-    
+    <category term="Java" scheme="https://kylechenz.github.io/My-Portfolio/tags/Java/"/>
     
   </entry>
   
