@@ -3,10 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: My Portfolio
 subtitle:
 description:
 keywords:
+- Portfolio
+- Blog
 - hexo
 - javascript
 author: Zihao Kyle Chen

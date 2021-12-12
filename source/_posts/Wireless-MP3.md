@@ -1,0 +1,91 @@
+---
+title: Remote-Controlled MP3
+date: 2018-07-09 00:17:29
+categories:
+- Projects
+- Real-time OS
+tags:
+- LPC17xx
+- FreeRTOS
+- MP3
+- Embedded Application
+thumbnailImagePosition: left
+thumbnailImage: https://lh3.googleusercontent.com/rRrB5jeRDd7ZPiRLdOn7U8JqWENbFg2nanUzC2B0O0X8HxHvkC4dlBr3cHrbbMh1dHzCnVNwxjQ_hjcSVIsFQ9CLhqyLc908LbAwAyWgYI39XYEBoWO5z6-MNnWyDD14lDPFx_m-omer0_HhN4h38JTaH4movu8zpCBXt--dMU4lJ2BDvPjbLiXCS5u3XHHN7qJJCRguLzPZGi8BFddwLknk19ysNLqw5ga3ILe7poLrC11bhOdYS3Nga_lQKk40sNAYGiO-u3ggeDBrVWOU1lEG_KopEcR9X519RtxlLl8cVhRbypQfTn-qy7HK8enXHIbNGw9z_qZgcFm13clyEghaZ5X1l_kCCDO8ZuQLOKYufI-y624HcSu-FQru3EOrEpyEGYrq35sPrejHl-VridGcnfoa2gFP4SHhvrohO7bhWJjGXpoPm6nkpLs_CJ4TbAlAj8fDedrWbqyDuvY1PkDGhH67blRfA9pAUM287GgEna6fqGYN6B7yuBvEwy2XfeR9YlEHHeIwzhFvpdRd1cDFAHos_VzIfsgZFZvnUgj7kKWlceuvk-ElrXOsYy0Qft_WyxVFEK50lBcF8aP-YMk0rsLuK468C293o04=w1000-no-tmp.jpg
+metaAlignment: left
+---
+
+Description: MP3 Design from scratch using LPC1768 micro-controller. Used protocal: SPI and UART.
+
+Github: https://github.com/KyleChenZ/Mp3_Decoder_VS1053_for_LPC17xx
+
+<!-- more -->
+
+### Hardware Description:
+![Hardware Description](https://lh3.googleusercontent.com/HpsgmhlsN4G_w_VrTbUphq0CtmpFccdpYRfvY_YCq_N5HICuXnUdRc3Yotpdp5-KQ7YknMhX-MXKORNEtkQ2uX10glk7AvmUsKhrHTpUSVLjSPfKwMq6th6goi2_P3xOCtEakYyoQLWXTpSkstgdOyBLTeKoA3D-oMBMfBsVieEzqV7ZmP2ccS76k4YQyMlS4psVVOP7QND8fyjp_UC3CQzsgd3lAlIqVJgGYv8NezbXxad5YoCHQUSOMl8oPIE5xJO8eFbCBWvCvOXQCWP6aln0EgTmc6KHncbjjImkHDHnaU7-6yvWtjyoH_dRDodOsjJuQ3k-QqGxJEnuyO9wU1X6hfLX4wwMSJRUHHnkRxuLbBNJbfv8D-_dTedEmdWWaUDIdAV9EFpLSQnKwQoczY4Ei6BOEHl0BBJF82XV2OaicjbPO0H9L3vEeBXOaBr9DUutI3vPvEYBVfD7tzdxYl2Z9-rDZEInbjErD21VPcfz5nTfSTez67njr6nSf2W9u1REpivmC0be13VzoaOw-XIwop1NKN7VOH4q8JNJaMM1FUa5YP5vR6M51SmCkIWU1RE7wKry6F3ddItHiJ2FNVe1BCabgLFPjWWAlt8=w1000-no-tmp.jpg)
+- [LPC1768 (SJSU edition)](http://socialledge.com/sjsu/images/4/4a/Sjone_board.jpg)
+    - IR sensor
+    - SD card
+- VS 1053B (MP3 Decoder)
+- Remote Control
+- serLCD v2.5 (LCD Display)
+
+### MP3 Decoder Pin Description:
+![MP3 Decoder](https://lh3.googleusercontent.com/2iB1So1ii0m5AYIbyvQ3HM03zVep4PkVFTW8h31MvpPdYxzL1IvC0lbmpsJ1QLlA9skhX9MP-6chEVnKSZRdV8v6pojaTJLpN2k-_239caDpAXFUuzsWH5ogRp_s08u4v_8z4_jsYf6U0r0kpgj15tTkUxRGWJ3_SofiJVuFC6w8J8k7z4Hxt-eZdgq8bMt3V6jS6UtvNAfqU5QKht4D97VwZcYNBWmk4Q5Xx3LjFhLolYvaZUizRfogNeJdNnO3AcwTKnY8xCDcLI71kraXIC0HD8LWQy7wDWpKpFwIrb-OocP48U-T3S1WPAhJZkM-N_sZKh6LEP1paBVmRsZe1U09-9tJarzqVc53wib2-Fy8SRKimXIP7cCgeyOPTc-fC1iKu68KIq3gWA4B0XR7KKvBSgMj8biHrPewQ2-Xq8F0uXL6drPNyTPJA6mPpZMeg37XIbieZt28B_9r1S8DwtImZctEdoSC6dj_jk40aXqMAKtkhPDWL861vhlX4ol5ZjZ2_kXU9qDv0tlIp4W_8ZYpAkOOqkq1gdbb3GBtdKE4WEbRBthEkm5UUoh2_xXIbgALv3Vy3g3ntGnoXJFdLNaEUipF3M_LCtUyhRs=w1000-no-tmp.jpg)
+![MP3 Decoder Layout](https://lh3.googleusercontent.com/3rmA2BQhx2ZfimBjsGlLjh5Zpr5-NfufFGjNioRKstFBSq5WImIWYRd0_7q6shSLynuqNsCZaSRGmDVizkxEuZFw8_77TdwxfMJAWkFZZx5qShX452RZgiHQzy8kZWQkv6fQU0vNQANADSIpa4mFs5mvhSBb52VlB4PokXr5BKDoVwhsMRGYMjeKvN-mBATvYihcEWy12bQ-V7va2kolP6E3PIdeQeM39y3midjXXoQqk_owGO81q2kyNxxgDloN8j0TvEJSDpwtI5lNFdCiNMToGEcUzX8unmi9rP2BQypm3RhBIpk9mTBIU8dYx1nTGnFHG5vhyeQzgmgEjVZfvnRlm2jrZvPxlm5J3APQFd1iZYrqibB6JnAguvmWr68iJkEjcqStd2CsEz4VgzuXe7c7fXCNpv-Tt-ou7tloAZ42WsWEhdsYks7XVW3fj9BDMVzEagecVV6Wb1kZqsjEMA44P1BsS4Zqny_Ctt-jqVtaMJy5dGZHneb0NwY2p50qr0_pro4if0d9ldAY9PECitTnANkt3X762sHKPaOBbhnOHdB2v8GMGqdL3LUfbC0WDdZ-zOCWjyEVbCfLVL5QlnQvKgtGjShHUv0TDnw=w1000-no-tmp.jpg)
+- SPI Protocol (MISO, MOSI, CS, SCLK)
+- Dreq
+- XDCS
+- Pins for speaker
+    - LOUT
+    - AGND
+    - ROUT
+
+### Display Hardware Description:
+![LCD](https://lh3.googleusercontent.com/ymMlIt15VnGTn2Ohd5BrxdHNqmWQPCNQ1FHc9YjtDoOdrRG0bH_Gj4Y9gDDLyWJHpNq6cjMvHgF3O4mJsCd7vBNCTvHt0P9jkN-gqJQ4TFjbh2MoXEVaBR-xd0LXhFiF4kRdKYLneg8mRfn0v-CPKGYXmEpv7tjHp0XgxzMP4qDd1Ik5id_aSD6UxaPyhaZNHxAAo_PJYdjEaai3HCOr1UoK3magOOvvIauROhKbr9zZMEPcOHae_izm61au8bY8TfAU5jKvduGsSI97dI3FjuwGgalppUNFu2m3OKSuh3ntn0NQkmd7crIxTvWSFHQTtXMknGnathwG_9cMvjE7DasCPo8dkF5QVEApLrAtytGHuXihAC3o9lCD43XJ9JeLQvkOLgLjZL_Ne4p6Z8nGbxbj_sryn6gEeZrF6FigykB5e-2HXa2LV3dBEz4ncCVBEd2Ap7-cjiVrf13S76joNU6f8rjmRk1JuOgLcLUgyLgfXtfPnHykXwTtaDZ5O2Nk-j886GRqnowGKbrYilUuONoZhsLYC6GsJcmzupooEFi9AvfI5YQrqHVg4tih9xzUevl2y4zVnRZ6NUehVuSx_0jJe-QzI68sI2sGX64=w1000-no-tmp.jpg)
+- 16x2 display
+- UART Protocol
+- 3 Pins needed: VDD, GND, RX
+- Software functionalities: Displays song name and info
+
+### MP3 Transfer Algorithm
+#### Setup:
+- Scan and store all the mp3 file paths
+- Software reset for the decoder
+- Configure SCI Mode register to set SPI mode
+- Configure SCI Audata register to set audio samplerate
+- Configure SCI Clock register to set clock frequency
+### Transfer Data:
+- Open a file using fopen(path[songIndex], “r”)
+- Read the file from SD card and send data to the decoder’s SDI register
+- Keep sending data to play the song
+- Meanwhile, receive control signal
+
+### LCD Display Info:
+![LCD cursor](https://lh3.googleusercontent.com/6W_RwI9Fadt3jRB_nyilJvBRBmm8EaHOZlsxm69fxhOKJwb1QS3DlSmvNwV5QcxyphokE4uClgjtCzzQG3HSRGf_uJKRRJtFDfZmJj3ePOuJNh_5D2TSYdCcFsTBEZ9KAXnCJk1-uzt7OKp9hZ9bgw8hqYHEANdxy34UVggIi7wC9y__59YEYUzSZf1LT6p28cJSLNTBlTpv7FclwhzOEKQlrroZz0Uk4HtuVsoo1qpQoXGkFpqgPKVRvf4XOUt2oj8b2gqDRCs6n1eNLDkyFKzvDGxzZhdgaO3tbJt6aTAn7ykWm0llEpE15_W3mFDnARSKzdbGFO6R1W6YeNyXtBr7DzBIzK3bW7ZTqT9TaJwKVQ7N9zORz8aFQU6o0Jofqhw89dXG13-Ij_f9MaImhasD86uOdHkTDuKCu_bPPHhNeY-HMylPyIH8F9kG4UUg49NSDn6HDCYqACUAuWmuk-MSIgVQ2KieVrGtdVzf9Ib9Su958qRTHIOJ_EYNat09VHD45A5uEwyIQskVrhSexwFT1yLvUaZEOB1iUGaXzpetROeWZZ06wYEaHTbTXfaYrMqSTiZPShoMnETe7IUV5qlQ1y5FGTUMmZkaJ3s=w1000-no-tmp.jpg)
+![LCD command table](https://lh3.googleusercontent.com/47tx-8AIc2ZQA_brQZAT9SqpT8oWLdBGKA4UOhj1_01b62wJ3jwMt6f1wIASS5nIUssC_JVr3npuNc32z7r5kKoA_ceQntnFRPoujPhckLogSN2QC0B-oNgllVWzxmzqXdhask9xu-rAJxxmc-0gZmk-F_N3fYMwLM1ex0opS3_Pn2_G_S8anw5sxhqz1KRyCCvFpDdOOfX5NuQpjQGzofz--bCq2I4xAsgxp7-4tCZdjq8C2NW-yHcsHaqzCY1CgeIr-KVGUDLbjuWaoBos43XPXZnou9okIFdl1x7sswj52XrG7fks_mtrrWJHKhtsvFFdDRtD4LPgX787QvSxqwhqSlJ25CpnL1Ng5gdw6QX1PST22s6Kswh9tygObQDXCKm_6U1D6JJE6wGP1a8HGyx-ihCKyevjZi_JmKgXRq7LpT0x1p_jsHMRJ6A5ZVgHbZrndfxIs82nG066ATkfhhOCkvqCXY_UWiE3IpXGgb3D-sfBYoLuKRZh0s5msSk_U4iul78OcJeNcFUQMfJY5uhd58211cOdobwnRJBtsw_-vx-wnbkLgXe-I8_Z4JGIFHpcwf_LCauCPoATeBlHEAMb5S78zOOxNT2NhUA=w1000-no-tmp.jpg)
+
+### Display Algorithm:
+- Display Buffer:
+    - 2 char array that each contains 16 characters, corresponding to each display grid on the screen.s
+- Update()
+    - Updating the display’s
+- VolumeChange()
+    - Update the display buffer to display volume and the current state of volume
+- ScrollView()
+    - If the song name is too long, the ScrollView will display the song name by shifting left.
+
+### Instructions on Using the Mp3 Player:
+![Instruc table](https://lh3.googleusercontent.com/hrMBkVCnUPJ7qqD7DgZaSAE7z7Cs2-adaLTXgz1e82guEZ8F3qvhKo3Oj6LP5Q6-3Ym0aBF-cAKHwyn6QG8qI1qrvHdBeL4VWpssHPyndordrzMxANv9gYiHBbyUDHzpWcXczO0qGMKlVB46RM9DHnw7YOt7Sjiz4RltRijpaYhGak7Zt_BjdxOE_HTI7moHAaIcuRfgXH_MIu_7LTXU7-EhvhC4z91une0x1ImGtlsO4_j1yFuQc2qBLS-SvNZDGev5LXnyEQb5DxXjTz8LatoHqkiH3OzGgfDxNgxlnQ4_XEKEZXg-y8FLsMPdnzATArDwZfqJt5QeHAfKUqb9AdjEzplh7RjN8i_KdlpI4S_78D-vpA7avicb9sRAma21V-1UMZFFwQxPkFQf38PA83rK43TAJmESOISlSPojB8CW1iXsjR4lP0uDszZk-vZY4aehYYYfyN4K9d6YGy-iVSXFQcdHvZOSuoJSnW6nIo7VzRa3CfrfciDOclTH9ugC1jNVVKF6RFC5Sgz0c04STluqHDKjsf3KcR3Y4dbGZgQUhX8daHFM6h3_AMkEg_-4St7U1YYJp3Bks1nfWnfvVIBIknyj10ibrQtbeUQ=w1000-no-tmp.jpg)
+![Remote photo](https://lh3.googleusercontent.com/rRrB5jeRDd7ZPiRLdOn7U8JqWENbFg2nanUzC2B0O0X8HxHvkC4dlBr3cHrbbMh1dHzCnVNwxjQ_hjcSVIsFQ9CLhqyLc908LbAwAyWgYI39XYEBoWO5z6-MNnWyDD14lDPFx_m-omer0_HhN4h38JTaH4movu8zpCBXt--dMU4lJ2BDvPjbLiXCS5u3XHHN7qJJCRguLzPZGi8BFddwLknk19ysNLqw5ga3ILe7poLrC11bhOdYS3Nga_lQKk40sNAYGiO-u3ggeDBrVWOU1lEG_KopEcR9X519RtxlLl8cVhRbypQfTn-qy7HK8enXHIbNGw9z_qZgcFm13clyEghaZ5X1l_kCCDO8ZuQLOKYufI-y624HcSu-FQru3EOrEpyEGYrq35sPrejHl-VridGcnfoa2gFP4SHhvrohO7bhWJjGXpoPm6nkpLs_CJ4TbAlAj8fDedrWbqyDuvY1PkDGhH67blRfA9pAUM287GgEna6fqGYN6B7yuBvEwy2XfeR9YlEHHeIwzhFvpdRd1cDFAHos_VzIfsgZFZvnUgj7kKWlceuvk-ElrXOsYy0Qft_WyxVFEK50lBcF8aP-YMk0rsLuK468C293o04=w1000-no-tmp.jpg)
+
+### Select/Menu Mode:
+- Preview other songs
+- Press OK to play the song that you are previewing
+
+### Main Tasks:
+![Main Tasks](https://lh3.googleusercontent.com/CwNDXJY84H066wY2UHUZUQr-ctQ-VOThTIWdn61KDB3pMJJCZyG5yE02GnUOMebpskMVaXmvjSzwgLlI6qihOqlrv-S56pBLDm2_FBUPVx79gFsyEmm29IdFtbId7EghLLQ-NhM8pX1ZEwaMipAIozs4mbitO2bfLJFGOkDu-v7p4Qbg4lZ__c8XpADYDp2YCGM2nymwWzHo-x1HsuDTAOLJQlRoNJ849zFhSFnv1SE9bKPNJQNiB9lcBKEBWYTGJGDqjySqR5o3uY3Kk2kXjZVuxUZJs1T1p9lukOTTi_rSXIsBQT1j1OiBitA9Trz4xT9neHMciJO3JLCxwNq9dqQX6YLVmccNxvLjP4Dvs_cNdxD4PBad-oJZSC9Iez_m3CrSicmBUH8U9zteuQDPCVmW7STmvQIrdGIQ-0CBDMlso9NtaKQkKvXoR-fhEpEfSh-ONit4yw0HGoWfLU-D8t17_sVLDtktvelosamtYziNiyAwMms6L3TgKiRJ-ZrQKOwTrCDr0YV-vlXQfxhjMtr8cx29c8pUeSE9lB4jhgxnRv_i2pT5NMdFukhmHBZU0aUXQpg0Cp4zl38f-vWZrLYbkXd62CaO-9fEBBE=w1000-no-tmp.jpg)
+
+### References:
+https://www.sparkfun.com/datasheets/Components/SMD/vs1053.pdf
+http://socialledge.com/sjsu/index.php/Main_Page
+https://www.sparkfun.com/datasheets/LCD/SerLCD_V2_5.PDF
