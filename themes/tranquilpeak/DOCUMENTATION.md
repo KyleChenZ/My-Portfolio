@@ -10,9 +10,10 @@
 
 ## Installation
 
-1. Download the latest version built and ready for production here : [releases](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/releases)
+1. Download the latest [version](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/archive/master.zip)
 2. Rename the folder in `tranquilpeak` and place it in the `themes` folder of your Hexo blog
 3. Modify the theme in Hexo configuration file (`_config.yml`) by setting `theme` variable to `tranquilpeak`
+4. Go to the `tranquilpeak` folder and run `npm install && npm run prod`
 
 ## Hexo configuration
 
@@ -63,14 +64,18 @@ If you are new to Hexo and internationalization (i18n), please read [Hexo docume
 
 Currently, the theme is delivered with:
 
-- Chinese (zh-CN)
-- Chinese Traditional (zh-TW)
+- German - Germany (de-DE)
 - English (en)
-- French (fr-FR)
-- Japanase (ja)
-- Portuguese (pt-BR)
-- Russian (ru)
 - Spanish (es)
+- Farsi (fa)
+- French - France (fr-FR)
+- Italian - Italy (it-IT)
+- Japanese (ja)
+- Korean (ko)
+- Brazilian Portuguese (pt-br)
+- Russian (ru)
+- Chinese (zh-cn)
+- Chinese Traditional (zh-tw)
 
 If your language is not available, follow this guidelines (E.g : add russian language (ru) :  
 
@@ -92,8 +97,18 @@ Complete `theme/tranquilpeak/_config.yml` with your information by following gui
 
 The search modal of the theme works with Algolia API to search in your posts. To enable this features, follow these steps:
 1. Create an account on Algolia
-2. Install and configure [hexo-algoliaseach](https://github.com/LouisBarranqueiro/hexo-algoliasearch) plugin
-3. Index your posts before deploying your blog
+2. Install and configure [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch) plugin
+3. Index your posts before deploying your blog. Here are the required fields:
+``` yaml
+  fields:
+    - title
+    - tags
+    - date
+    - categories
+    - excerpt
+    - permalink
+    - thumbnailImageUrl
+```
 
 ### Enable pages
 
@@ -375,20 +390,35 @@ E.g (rgba color) :
 
 #### Image
 
-Image tag is useful to add images and create beautiful galleries. Check what are the possibilities here : [Image tag demo](https://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Images)
+Image tag is useful to add images and create beautiful galleries. Check out some possibilities here : [Image tag demo](https://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Images)
 
 Syntax : `{% image [classes] group:group-name /path/to/image [/path/to/thumbnail] [width of thumbnail] [height of thumbnail] [title text] %}`  
 E.g : `{% image fancybox right clear group:travel image2.png http://google.fr/images/image125.png 150px 300px "A beautiful sunrise" %}`
 
 |Argument|Description|
 |---|---| 
-|Classes (optional)|You can add css classes to stylize the image. Separate class with whitespace. Tranquilpeak integrate many css class to create nice effects :  <ul><li><strong>fancybox</strong> : Generate a fancybox image.</li><li><strong>nocaption</strong> : Caption of the image will not be displayed.</li><li><strong>left</strong> : Image will float at the left.</li><li><strong>right</strong> : Image will float at the right.</li><li><strong>center</strong> : Image will be at center.</li><li><strong>fig-20</strong> : Image will take 20% of the width of post width and automatically float at left.</li><li><strong>fig-25</strong> : Image will take 25% of the width of post width and automatically float at left.</li><li><strong>fig-33</strong> : Image will take 33% of the width of post width and automatically float at left.</li><li><strong>fig-50</strong> : Image will take 50% of the width of post width and automatically float at left.</li><li><strong>fig-75</strong> : Image will take 75% of the width of post width and automatically float at left.</li><li><strong>fig-100</strong> : Image will take 100% of the width of post width.</li><li><strong>clear</strong> : Add a div with `clear:both;` style attached after the image to retrieve the normal flow of the post.</li></ul>|
+|Classes (optional)|You can add css classes to stylize the image. Separate class with whitespace. Tranquilpeak integrate many css class to create nice effects: <ul><li><strong>fancybox</strong> : Generate a fancybox image.</li><li><strong>nocaption</strong> : Caption of the image will not be displayed.</li><li><strong>left</strong> : Image will float at the left.</li><li><strong>right</strong> : Image will float at the right.</li><li><strong>center</strong> : Image will be at center.</li><li><strong>fig-20</strong> : Image will take 20% of the width of post width and automatically float at left.</li><li><strong>fig-25</strong> : Image will take 25% of the width of post width and automatically float at left.</li><li><strong>fig-33</strong> : Image will take 33% of the width of post width and automatically float at left.</li><li><strong>fig-50</strong> : Image will take 50% of the width of post width and automatically float at left.</li><li><strong>fig-75</strong> : Image will take 75% of the width of post width and automatically float at left.</li><li><strong>fig-100</strong> : Image will take 100% of the width of post width.</li><li><strong>clear</strong> : Add a div with `clear:both;` style attached after the image to retrieve the normal flow of the post.</li></ul>|
 |Group (optional)| Name of a group, used to create a gallery. **Only for image with `fancybox` css class**|
 |Orignal image| Path to the original image.|
 |Thumbnail image (optional)| Path to the thumbnail image. If empty, the orignal image will be displayed.|
 |Width of thumbnail image (optional)| Width to the thumbnail image. If the thumbnail image is empty, width will be attached to thumbnail image created from original image. E.g : `150px` or `85%`.|
 |Height of thumbnail image (optional)| Height to the thumbnail image. If the thumbnail image is empty, height will be attached to thumbnail image created from original image. E.g : `300px` or `20%`.|
 |Title (optional)| Title of image displayed in a caption under image. `Alt` HTML attribute will use this title. E.g : `"A beautiful sunrise"`.|
+ 
+#### Video
+
+The video tag provides a convenient way to showcase self-hosted videos. Take a look at some examples here: [Video Tag Demo](https://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Video)
+
+Syntax : `{% video [classes] videoURL [Optional Poster (Thumbnail) URL] [Width] [Caption] %}`
+E.g : `{% video center https://example.com/video.mp4 https://example.com/video-poster.jpg 100% Poster (Thumbnail) Enabled %}`
+ 
+|Argument|Description|
+|---|---| 
+|Classes (optional)|Make sure to separate your class properties with whitespaces. Tranquilpeak integrates many css classes to create nice effects: <ul><li><strong>left</strong> : Video will float at the left (default alignment).</li><li><strong>right</strong> : Video will float at the right.</li><li><strong>center</strong> : Video will be at center.</li><li><strong>clear</strong> : Add a div with `clear:both;` style attached after the image to retrieve the normal flow of the post.</li><li><strong>nocaption</strong> : the provided caption will not be displayed.</li><li><strong>loop</strong> : once over, the video will playback from the beginning.</li><li><strong>nocontrols</strong> : The video's default controls will be hidden. Most browsers still make them accessible by right clicking on the video.</li><li><strong>autoplay</strong> : Video will autoplay on page load. <strong>must be used with the 'mute' class</strong> to obey browser standards. Most likely will not work otherwise.</li><li><strong>muted</strong> : The video will be muted</li></li><li><strong>fig-20</strong> : Image will take 20% of the width of post width and automatically float at left.</li><li><strong>fig-25</strong> : Image will take 25% of the width of post width and automatically float at left.</li><li><strong>fig-33</strong> : Image will take 33% of the width of post width and automatically float at left.</li><li><strong>fig-50</strong> : Image will take 50% of the width of post width and automatically float at left.</li><li><strong>fig-75</strong> : Image will take 75% of the width of post width and automatically float at left.</li><li><strong>fig-100</strong> : Image will take 100% of the width of post width.</li></ul>|
+|videoURL| Path to the original video.|
+|Poster image (optional thumbnail)| Path to the thumbnail image. If empty, the initial frame of video will be displayed.|
+|Width of thumbnail image (optional)| Width of the video frame. E.g : `85%`.|
+|Caption (optional)| Title of image displayed in a caption under image. `Alt` HTML attribute will use this title. E.g : `"A beautiful sunrise"`.|
  
 #### Tabbed code block
 

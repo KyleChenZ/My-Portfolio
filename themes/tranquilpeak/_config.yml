@@ -26,78 +26,78 @@ image_dir: assets/images
 #             home:             # Name of your link (changeable)
 #                title: Home    # Title of your link displayed
 #                url: /         # URL of the link. If the URL is internal, domain name is not necessary
-#                icon: home     # Name of the font awesome icon class without the `fa-`
-#                               # Go to http://fontawesome.io/icons/ to find class name of icon
+#                icon: home     # CSS class names of the Font Awesome icon
+#                               # Go to https://fontawesome.com/icons?d=gallery&m=free to find icons you want
 sidebar:
     menu:
         home:
             title: global.home
             url: /
-            icon: home
+            icon: fa fa-home
         categories:
             title: global.categories
             url: /all-categories
-            icon: bookmark
+            icon: fa fa-bookmark
         tags:
             title: global.tags
             url: /all-tags
-            icon: tags
+            icon: fa fa-tags
         archives:
             title: global.archives
             url: /all-archives
-            icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
-            # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
+            icon: fa fa-archive
+        # search:
+        #     title: global.search
+        #     url: "#search"
+        #     icon: fa fa-search
+        #     # `open-algolia-search` classes are used to open algolia search modal
+        #     class: open-algolia-search
         about:
             title: global.about
-            url: /#about
-            icon: question
+            url: "#about"
+            icon: fa fa-question
         project:
             title: global.projects
             url: /projects
-            icon: product-hunt
+            icon: fab fa-product-hunt
     author_links:
         github:
             title: global.github
             url: https://github.com/KyleChenZ/
-            icon: github
+            icon: fab fa-github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
-        #     icon: stack-overflow
+        #     icon: fab fa-stack-overflow
         # twitter:
         #     title: global.twitter
         #     url: https://twitter.com/
-        #     icon: twitter
+        #     icon: fab fa-twitter
         # facebook:
         #     title: global.facebook
         #     url: https://facebook.com/
-        #     icon: facebook
+        #     icon: fab fa-facebook
         # google_plus:
         #     title: global.google_plus
         #     url: https://plus.google.com/
-        #     icon: google-plus
+        #     icon: fab fa-google-plus
         linked_in:
             title: global.linkedin
             url: https://www.linkedin.com/in/zihao-kyle-chen-470630b8/
-            icon: linkedin
+            icon: fab fa-linkedin
         mail:
             title: global.mail
             url: mailto:zihaokylechen%40gmail.com
-            icon: envelope-o
+            icon: fa fa-envelope
         wechat:
             title: global.wechat
             url: /wechat
-            icon: wechat
+            icon: fab fa-weixin
     rss:
         rss:
             title: global.rss
             url: /atom.xml
-            icon: rss
+            icon: fa fa-rss
 
 
 # --------------------
@@ -110,7 +110,7 @@ sidebar:
 # DON'T edit `header`, `right_link`, `url`, `icon` and `class` variable name
 # E.g to display a shortcut to open algolia search window :
 #     url: /#search
-#     icon: search
+#     icon: "fa fa-search"
 #     class: open-algolia-search
 header:
     right_link:
@@ -204,11 +204,40 @@ gitment:
     # Your Github ID (Github username):
     github_id: KyleChenZ
     # The repo to store comments:
-    repo: 
+    repo:
     # Your client ID:
     client_id:
     # Your client secret:
     client_secret:
+    # The attribute of posts to use to link them to GitHub issues.
+    # See all attributes: https://hexo.io/docs/variables#Page-Variables
+    # `path` is recommended because the identifier needs to be unique and shorter than 50 characters.
+    post_identifier: permalink
+
+# Your Gitalk information
+# Read https://github.com/gitalk/gitalk#options to set up Gitalk
+gitalk:
+    # Switch
+    enable: false
+    # Your client ID:
+    client_id:
+    # Your client secret:
+    client_secret:
+    # Your Github ID (Github username):
+    owner:
+    # The repo to store comments:
+    repo:
+    # The attribute of posts to use to link them to GitHub issues.
+    # See all attributes: https://hexo.io/docs/variables#Page-Variables
+    # `path` is recommended because the identifier needs to be unique and shorter than 50 characters.
+    post_identifier: path
+    # See all options: https://github.com/gitalk/gitalk#options
+    options:
+        language: "en"
+        perPage: 10
+        distractionFreeMode: false
+        enableHotKey: true
+        pagerDirection: "first"
 
 # -------------------
 # Integrated services
@@ -219,7 +248,7 @@ google_analytics_id: UA-121642725-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-gravatar_email:
+gravatar_email: a33584080@gmail.com
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
 fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
@@ -249,14 +278,21 @@ fb_app_id:
 # ```
 sharing_options:
     facebook:
-        icon: "fa-facebook-official"
+        icon: "fab fa-facebook"
         url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
     twitter:
-        icon: "fa-twitter"
+        icon: "fab fa-twitter"
         url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
     google_plus:
-        icon: "fa-google-plus"
+        icon: "fab fa-google-plus"
         url: "https://plus.google.com/share?url={{post.permalink}}"
+# Business Social Networks
+#    linkedin:
+#        icon: "fab fa-linkedin"
+#        url: "https://www.linkedin.com/shareArticle?mini=true&url={{post.permalink}}"
+#    xing:
+#        icon: "fab fa-xing"
+#        url: "https://www.xing.com/spi/shares/new?url={{post.permalink}}"
     # Asian social networks
     # weibo:
     #     title: "Weibo"
@@ -283,3 +319,4 @@ sharing_options:
     #     title: "Odnoklassniki"
     #     icon: "fa-odnoklassniki"
     #     url: "https://connect.ok.ru/offer?url={{post.permalink}}"
+
